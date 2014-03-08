@@ -1,9 +1,3 @@
-/**
-* Project Name : cis27spring2014JustinUnverrichtLab2Ex1
-* Date : 2/13/2014
-* Written by : Justin Unverricht
-**/
-
 #include <stdio.h> 
 #include <stdlib.h>
 
@@ -14,8 +8,6 @@ void classInfo();
 void displayIntOccuranceJustinU(int*, int);
 
 int main() {
-	classInfo();
-	printf("\n");
 	Menu();
 
 	return 0;
@@ -198,30 +190,9 @@ void displayIntOccuranceJustinU(int *userAry, int size) {
 	free(copyAry);
 }
 
-void classInfo() {
-	printf("\nCIS 27 - C Programming"\
-		"\nLaney College "\
-		"\nJustin Unverricht"\
-		"\n"\
-		"\nAssignment Informantion --"\
-		"\n  Assignment Number:    Lab 02,"\
-		"\n                        Coding Assignment -- Exercise #1"\
-		"\n  Written by:           Justin Unverricht"\
-		"\n  Submitted Date:       2/18/2014");
-	return;
-}
+
 
 /**   Output
-
-CIS 27 - C Programming
-Laney College
-Justin Unverricht
-
-Assignment Informantion --
-Assignment Number:    Lab 02,
-Coding Assignment -- Exercise #1
-Written by:           Justin Unverricht
-Submitted Date:       2/18/2014
 
 ********************************************
 *                  MENU                    *
